@@ -1,0 +1,72 @@
+.baccalaureate {
+  background-image: url("../../public/images/spelmanbackground.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px;
+  flex: 1 0 auto;
+}
+
+/* Title + Date Row */
+.baccalaureate-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.baccalaureate .page-title-box h2 {
+  background-color: #114448;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid white;
+  font-size: 1.7rem;
+}
+
+/* Grid Layout */
+.baccalaureate-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.left-section,
+.right-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Paragraph */
+.paragraph-box {
+  background-color: #B9D9EB;
+  padding: 20px;
+  border: 1px solid #114448;
+  color: #114448;
+  font-size: 1.05rem;
+}
+
+/* Vertical Info Boxes */
+.info-box-column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Speaker Paragraph */
+.speaker-box {
+  background-color: #B9D9EB;
+  padding: 20px;
+  border: 1px solid #114448;
+  color: #114448;
+  font-size: 1.1rem;
+  margin-top: 32px;
+  text-align: center;
+  max-width: 900px;
+  margin: 30px auto 0 auto;
+  font-weight: bold;
+  margin-bottom: 60px;
+  height: 150px;
+}

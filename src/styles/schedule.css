@@ -1,0 +1,78 @@
+.schedule {
+  background-image: url("../../public/images/spelmanbackground.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px 20px;
+  flex: 1 0 auto;
+}
+
+/* Title */
+.schedule .title-row {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+.schedule .page-title-box h2 {
+  background-color: #114448;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid white;
+  font-size: 1.7rem;
+}
+
+/* Table */
+.schedule .table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.schedule-table {
+  width: 80%;
+  max-width: 900px;
+  border-collapse: collapse;
+  font-size: 1.2rem;
+  background-color: white;
+  border: 2px solid #114448;
+}
+
+.schedule-table th,
+.schedule-table td {
+  padding: 15px;
+  border: 1px solid #114448;
+  text-align: center;
+}
+
+.schedule-table th {
+  background-color: #B9D9EB;
+  font-weight: bold;
+  color: #114448;
+}
+
+/* Map */
+.map-container {
+  margin-top: 40px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  margin-left: 425px;
+  margin-bottom: 60px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .schedule .page-title-box h2 {
+    font-size: 1.4rem;
+  }
+
+  .schedule-table {
+    width: 100%;
+    font-size: 1rem;
+  }
+}

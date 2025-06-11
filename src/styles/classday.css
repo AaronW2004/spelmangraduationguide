@@ -1,0 +1,55 @@
+.classday {
+  background-image: url("../../public/images/spelmanbackground.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px;
+  flex: 1 0 auto;
+  padding-bottom: 60px;
+}
+
+/* Title + Date Row */
+.classday-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.classday .page-title-box h2 {
+  background-color: #B9D9EB;
+  padding: 10px 20px;
+  border: 1px solid #114448;
+  font-size: 1.7rem;
+  color: #114448;
+}
+
+/* Layout Grid */
+.classday-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.left-side,
+.right-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Info Box Row */
+.info-box-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.details-box {
+  background-color: #B9D9EB;
+  padding: 20px;
+  border: 1px solid #114448;
+  color: #114448;
+  font-size: 1.05rem;
+}
