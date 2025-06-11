@@ -23,7 +23,6 @@
   font-size: 1.7rem;
 }
 
-/* Table */
 .schedule .table-container {
   display: flex;
   justify-content: center;
@@ -54,7 +53,6 @@
   color: #114448;
 }
 
-/* Map */
 .map-container {
   margin-top: 40px;
   overflow: hidden;
@@ -64,8 +62,7 @@
   margin-left: 425px;
   margin-bottom: 60px;
 }
-
-/* Responsive */
+/*Media Queries*/
 @media (max-width: 768px) {
   .schedule .page-title-box h2 {
     font-size: 1.4rem;

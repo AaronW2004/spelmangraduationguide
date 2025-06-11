@@ -7,7 +7,6 @@
   flex: 1 0 auto;
 }
 
-/* Title + Date Row */
 .baccalaureate-title-row {
   display: flex;
   justify-content: space-between;
@@ -23,7 +22,6 @@
   font-size: 1.7rem;
 }
 
-/* Grid Layout */
 .baccalaureate-grid {
   display: flex;
   gap: 30px;
@@ -39,7 +37,6 @@
   gap: 20px;
 }
 
-/* Paragraph */
 .paragraph-box {
   background-color: #B9D9EB;
   padding: 20px;
@@ -48,14 +45,12 @@
   font-size: 1.05rem;
 }
 
-/* Vertical Info Boxes */
 .info-box-column {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-/* Speaker Paragraph */
 .speaker-box {
   background-color: #B9D9EB;
   padding: 20px;

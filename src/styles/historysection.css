@@ -42,7 +42,7 @@
   border-radius: 8px;
 }
 
-/* Responsive */
+/* Media Queries */
 @media (max-width: 768px) {
   .history-section {
     flex-direction: column !important;

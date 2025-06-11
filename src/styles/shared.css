@@ -1,6 +1,4 @@
-/* ======================
-   🌐 GLOBAL RESET & BASE
-   ====================== */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -24,10 +22,6 @@ main {
   min-height: 100vh;
 }
 
-
-/* ======================
-   🧱 HEADER + FOOTER
-   ====================== */
 header {
   text-align: center;
   flex: 0 0 auto;
@@ -54,9 +48,6 @@ h1 {
   font-size: 1.8rem;
 }
 
-/* ======================
-   📱 NAVBAR
-   ====================== */
 .navbar {
   margin: 0;
   padding: 0;
@@ -85,9 +76,6 @@ h1 {
   padding: 10px 15px;
 }
 
-/* ======================
-   🖥️ RESPONSIVE
-   ====================== */
 @media (max-width: 768px) {
   .nav-links {
     flex-direction: column;

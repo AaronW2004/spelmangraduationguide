@@ -11,7 +11,6 @@
   flex: 1 0 auto;
 }
 
-/* Title */
 .findyourgrad .center-box h2 {
   background-color: #B9D9EB;
   padding: 10px 25px;
@@ -23,7 +22,6 @@
   margin-bottom: 45px;
 }
 
-/* Gallery */
 .findyourgrad .graduate-container {
   display: flex;
   flex-wrap: wrap;
@@ -63,7 +61,7 @@
   color: #114448;
 }
 
-/* Responsive */
+/* Media Queries */
 @media (max-width: 1024px) {
   .findyourgrad .graduate-card {
     width: calc(100% / 4 - 20px);
