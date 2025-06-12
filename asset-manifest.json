@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/spelmangradationguide/static/css/main.b158c625.css",
+    "main.js": "/spelmangradationguide/static/js/main.a95c31d8.js",
+    "static/media/alumni.jpg": "/spelmangradationguide/static/media/alumni.80a283cde3576ac09f02.jpg",
+    "static/media/spelmanbackground.jpg": "/spelmangradationguide/static/media/spelmanbackground.4f9b527b803565151635.jpg",
+    "index.html": "/spelmangradationguide/index.html",
+    "main.b158c625.css.map": "/spelmangradationguide/static/css/main.b158c625.css.map",
+    "main.a95c31d8.js.map": "/spelmangradationguide/static/js/main.a95c31d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b158c625.css",
+    "static/js/main.a95c31d8.js"
+  ]
+}
