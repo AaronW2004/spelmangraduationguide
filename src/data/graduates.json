@@ -6,7 +6,7 @@
     "major": "Biology",
     "awards": "Dean's List, Spelman Research Scholar",
     "latinHonors": "Summa Cum Laude",
-    "img_name": "../images/graduate1.jpg"
+    "img_name": "/images/graduate1.jpg"
   },
   {
     "_id": 2,
@@ -15,7 +15,7 @@
     "major": "Computer Science",
     "awards": "Google Scholar, Hackathon Winner",
     "latinHonors": "Magna Cum Laude",
-    "img_name": "../images/graduate2.jpg"
+    "img_name": "/images/graduates2.jpg"
   },
   {
     "_id": 3,

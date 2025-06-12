@@ -33,7 +33,7 @@ const ContactUs = () => {
 
         <div className="right-column">
           <EventImage
-            src="/images/students.jpg"
+            src={`${process.env.PUBLIC_URL}/images/students.jpg`}
             caption="Students gathered during a prior year's celebration weekend"
             alt="Students in commencement attire"
             size="sm"

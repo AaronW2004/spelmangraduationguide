@@ -36,7 +36,7 @@ const Baccalaureate = () => {
 
         <div className="right-section">
           <EventImage
-            src="/images/conventioncenter.jpg"
+            src={`${process.env.PUBLIC_URL}/images/conventioncenter.jpg`}
             caption="Baccalaureate Service held in Georgia International Convention Center in College Park, Georgia."
             alt="Convention Center"
           />

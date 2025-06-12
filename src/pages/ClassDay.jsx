@@ -15,7 +15,7 @@ const ClassDay = () => {
       <div className="classday-grid">
         <div className="left-side">
           <EventImage
-            src="/images/arch.jpg"
+            src={`${process.env.PUBLIC_URL}/images/arch.jpg`}
             caption="Class Day, March Through the Alumnae Arch"
             alt="Arch image"
           />
@@ -47,7 +47,7 @@ const ClassDay = () => {
           </div>
 
           <EventImage
-            src="/images/graduatesmarch.jpg"
+            src={`${process.env.PUBLIC_URL}/images/graduatesmarch.jpg`}
             caption="Graduates march through the Alumnae Arch in their commencement attire"
             alt="Graduation image"
           />
