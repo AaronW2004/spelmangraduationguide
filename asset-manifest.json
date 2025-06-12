@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/spelmangraduationguide/static/css/main.93db0412.css",
-    "main.js": "/spelmangraduationguide/static/js/main.1ed08065.js",
+    "main.js": "/spelmangraduationguide/static/js/main.17a29042.js",
     "static/media/alumni.jpg": "/spelmangraduationguide/static/media/alumni.80a283cde3576ac09f02.jpg",
     "static/media/spelmanbackground.jpg": "/spelmangraduationguide/static/media/spelmanbackground.4f9b527b803565151635.jpg",
     "index.html": "/spelmangraduationguide/index.html",
     "main.93db0412.css.map": "/spelmangraduationguide/static/css/main.93db0412.css.map",
-    "main.1ed08065.js.map": "/spelmangraduationguide/static/js/main.1ed08065.js.map"
+    "main.17a29042.js.map": "/spelmangraduationguide/static/js/main.17a29042.js.map"
   },
   "entrypoints": [
     "static/css/main.93db0412.css",
-    "static/js/main.1ed08065.js"
+    "static/js/main.17a29042.js"
   ]
 }
