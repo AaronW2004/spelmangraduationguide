@@ -32,8 +32,11 @@ const EditGraduate = ({ graduate, onClose, onSave }) => {
     Object.entries(inputs).forEach(([k, v]) => formData.append(k, v));
     if (imageFile) formData.append('image', imageFile);
 
+
+
     try {
-      const res = await fetch(`https://summer-backend-x31p.onrender.com/api/graduates/${graduate._id}`, {
+      const res = await fetch(`
+        http://localhost:3000/api/graduates/${graduate._id}`, {
         method: 'PUT',
         body: formData,
       });

@@ -53,7 +53,7 @@ const AddGraduateForm = ({ onNewGraduate }) => {
     });
 
     try {
-      const res = await fetch('https://summer-backend-x31p.onrender.com/api/graduates', {
+      const res = await fetch('http://localhost:3000/api/graduates', {
         method: 'POST',
         body: data
       });
