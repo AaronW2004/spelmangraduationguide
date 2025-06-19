@@ -158,6 +158,58 @@
   margin-top: 5px;
 }
 
+.grad-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.change-buttons button {
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  margin-left: 15px;
+  cursor: pointer;
+  color: #114448;
+}
+
+.change-buttons button.delete-btn {
+  color: #b61c1c;
+}
+
+.modal-actions {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-btn, .delete-btn {
+  padding: 8px 14px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #a71d2a;
+}
+
 
 /* Media Queries */
 @media (max-width: 1024px) {

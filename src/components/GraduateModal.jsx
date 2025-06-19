@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/findyourgrad.css';
 
-const GraduateModal = ({ graduate, onClose }) => {
+const GraduateModal = ({ graduate, onClose, onEdit, onDelete }) => {
   return (
     <div className="modal" style={{ display: 'flex' }}>
       <div className="modal-content">
@@ -16,6 +16,11 @@ const GraduateModal = ({ graduate, onClose }) => {
         <p><strong>Major:</strong> {graduate.major}</p>
         <p><strong>Awards:</strong> {graduate.awards}</p>
         <p><strong>Honors:</strong> {graduate.latinHonors}</p>
+
+        <div className="modal-actions">
+          <button className="edit-btn" onClick={onEdit}>✎ Edit</button>
+          <button className="delete-btn" onClick={onDelete}>✖ Delete</button>
+        </div>
       </div>
     </div>
   );
